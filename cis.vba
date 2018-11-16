@@ -29,7 +29,7 @@ Sub copy_checkbox_data_from_SSP_to_CIS_workbook()
     Selection.Start = 0
     Selection.Collapse
     Selection.Find.ClearFormatting
-    Selection.Find.Text = "Control Summary Information"
+    Selection.Find.Text = "Summary Information"
     Selection.Find.Execute
     
     statusErrorList = Empty
